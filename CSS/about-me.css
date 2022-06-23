@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+    border: 0.4px solid aliceblue;
+    height: 300px;
+    background-color: #f0f8ff20;
+}
+
+.about-me-image {
+    border-radius: 10px;
+    margin-top: 27px;
+    margin-left: 20px;
+    border-color: #070000;
+    border-width: 10px;
+
+}
+
+.about-me-all {
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-me-principal {
+    color:rgb(255, 13, 13);
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.about-me-localization {
+    color: #e8dddd;
+}
+
+.about-me-text {
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Play', sans-serif;
+}
+
+.about-me-button {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.third {
+    background-color: #ffffff56;
+    border-color: #414141a2;
+    color: #ffffff;
+    box-shadow: 0 0 40px 40px #6b6b6bc8 inset, 0 0 0 #d6d6eb95;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 400ms ease-in-out;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 250px;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+    
+}
+.third:hover {
+    box-shadow: 0 0 2px 0 #ff0d0dca inset, 0 0 10px 4px #ff0d0dbe;
+}
+
+.iconmail {
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.four {
+    background-color: #ffffff56;
+    border-color: #414141a2;
+    color: #ffffff;
+    box-shadow: 0 0 40px 40px #6b6b6bc8 inset, 0 0 0 #d6d6eb95;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 400ms ease-in-out;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 100px;
+    margin-top: 1px;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10px;
+    
+}
+.four:hover {
+    box-shadow: 0 0 2px 0 #ff0d0dca inset, 0 0 10px 4px #ff0d0dbe;
+}
+
+.iconwhats {
+    margin-top: 5px;
+    z-index: 1;
+}

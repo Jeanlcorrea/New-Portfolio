@@ -1,0 +1,60 @@
+.button-two {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bttn {
+    position: relative;
+    width: 150px;
+    height: 55px;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.bttn::before {
+    display: flex;
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 400px;
+   background: conic-gradient(#ffffff6c, #a29d9d73);
+   animation: efeito 10s infinite;
+   transition: 0.1s ease;
+    margin-right: -10px;
+
+}
+
+@keyframes efeito {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.c {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 147px;
+    height: 52px;
+    background: #1212127d;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: aliceblue;
+    letter-spacing: 3px;
+}
+
+.c:hover {
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.button-two {
+    margin-top: 150px;
+    margin-left: -200px;
+}
+

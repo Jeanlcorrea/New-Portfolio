@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jean's Portfolio</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="./CSS/Button.css">
+    <link rel="stylesheet" href="./CSS/Button-two.css">
+    <link rel="stylesheet" href="./CSS/about-me.css">
+    <link rel="stylesheet" href="./CSS/projects.css">
+    <link rel="stylesheet" href="./CSS/skills.css">
+</head>
+
+<body>
+    <nav>
+        <header>
+            <div class="container">
+                <ul class="container-menu">
+                    <li> <a class="ared" href="#">Home</a> </li>
+                    <li> <a href="#aboutme">About Me</a></li>
+                    <li> <a href="#projects">Projects</a> </li>
+                    <li> <a href="#skils">Skills</a> </li>
+                </ul>
+            </div>
+        </header>
+    </nav>
+
+    <!--HERE WE FINISH THE MAIN CONTENT AND CONTINUE TO THE MAIN CONTENT-->
+
+    <main class="conteudo-principal">
+        <div class="conteudo-principal-escrito">
+            <h1 class="first-commit"> HEY THERE!<p class="hey-there"> I'M JEAN CORREA</p>
+            </h1>
+            <h2 class="second-commit">WELCOME TO MY PORTFOLIO!</h1>
+                <div class="button">
+                    <div class="btn">
+                        <a class="b" href="https://www.linkedin.com/in/jean-correa-0310b0234/">Linkedin</a>
+                    </div>
+                </div>
+                <div class="button-two">
+                    <div class="bttn">
+                        <a class="c" href="https://github.com/Jeanlcorrea"> Github</a>
+                    </div>
+                </div>
+        </div>
+        <div class="text-image">
+            <img class="myimage" src="./assets/myimage.jpg" width="250px" height="250px">
+            <p class="text"> - Front-End Developer</p>
+            <a name="aboutme"></a>
+        </div>
+    </main> 
+    <div class="arrow"> </div>
+
+    <!--HERE WE FINISH THE HEADER AND CONTINUE TO THE NEW SECTION CONTENT-->
+
+    <section  class="about-me">
+        <img class="about-me-image" src="./assets/myimage-two.jpg" width="230px" height="250px">
+        <div class="about-me-all">
+            <h3 class="about-me-principal">ABOUT ME</h3>
+            <p class="about-me-localization">Joinville, Santa Catarina.</p>
+            <p class="about-me-text"> Há 3 meses resolvi migrar para a aréa de tecnologia, e tenho me encontrado.
+                Ingressei na Universidade da Região de Joinville (Univille) no curso de Análise e Desenvolvimento de
+                Sistemas,
+                e em busca da minha primeira oportunidade de emprego, fiz e estou fazendo alguns cursos online,
+                desenvolvendo projetos acadêmicos e landing pages para amigos.</p>
+            <div class="about-me-button">
+                <button type="button" class="btn third"><img class="iconmail" src="./assets/email-icon.png"
+                        alt="mailicon" height="30px" width="30px"></button>
+                <button type="button" class="btn four"><img class="iconwhats" src="./assets/whats-icon.png"
+                        height="33px" width="33px" ></button>
+            </div>
+        </div>
+    </section>
+
+    <!--HERE WE FINISH THE SECTION CONTENT AND CONTINUE TO THE PROJECTS-->
+    <a name="projects"></a>
+    <section class="bodi">
+        <div class="conteiner">
+
+            <div class="card">
+                <div class="content">
+                    <h2>01</h2>
+                    <h3>Orlando City</h3>
+                    <p class="content-p">Projeto acadêmico realizado com a HCode, utilizando html, Css, jQuery e
+                        Bootstrap.</p>
+                    <a class="content-a" href="">Join to Project</a>
+
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="content">
+                    <h2>02</h2>
+                    <h3>Climbing Page</h3>
+                    <p class="content-p">Projeto realizado para uma pagina de escalada fictícia (meu primeiro projeto).
+                    </p>
+                    <a class="content-a" href="">Join to Project</a>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="content">
+                    <h2>03</h2>
+                    <h3>Javascript Projects</h3>
+                    <p class="content-p">Projetos Acadêmicos realizados em Javascript</p>
+                    <a class="content-a" href="">Join to Project</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <h2>04</h2>
+                    <h3>Em Breve...</h3>
+                    <p class="content-p">Projetos sendo realizados em Javascript</p>
+                    <a class="content-a" href="">Wait for Projects...</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a name="skils"></a>
+    <section class="skills">  
+        <div class="skills-cards">
+
+            <div class="skills-cards-cards">
+                <div class="card-content">
+                    <img src="./assets/htm-icon.png" height="250px" width="180px">                     
+                </div>
+            </div>
+
+            <div class="skills-cards-cards">
+                <div class="card-content">
+                    <img src="./assets/css-3-logo-1.png" height="250px" width="180px">
+                </div>
+            </div>
+
+
+            <div class="skills-cards-cards">
+                <div class="card-content">
+                    <img src="./assets/js-icon.png" height="260px" width="270px">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script type="text/Javascript" src="./Javascript/vanilla-tilt.js"></script>
+    <script type="text/Javascript">
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.7,
+        });
+    </script>
+    <script type="text/Javascript">
+        VanillaTilt.init(document.querySelectorAll(".about-me-image"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.8,
+        });
+    </script>
+    <script>
+        alert("Esse site está em constante evolução!");
+        </script>
+</body>
+
+</html>
