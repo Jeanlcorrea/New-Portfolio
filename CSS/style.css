@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+@import url('./Button.css');
+@import url('./Button-two.css');
+@import url('./about-me.css');
+@import url('./projects.css');
+@import url('./skills.css');
 * {
     margin: 0;
     padding:0;
